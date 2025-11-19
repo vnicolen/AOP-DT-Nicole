@@ -1,0 +1,99 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+
+body {
+   background-image: linear-gradient(0deg, rgba(224, 240, 254) 0%, rgba(27, 144, 248) 50%);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+img {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1%;
+   margin-bottom: 3px;
+   width: 100px;
+   aspect-ratio: 1 / 1;
+   object-fit:cover;
+   display:block;
+}
+
+
+.osis-kin {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 5%;
+    width: 50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    gap: 10px;
+}
+
+.candidates-kin {
+     width: 300px;
+   background-image: linear-gradient(0deg, rgba(224, 240, 254) 0%, rgba(27, 144, 248) 50%);
+   padding: 25px;
+   border-radius: 8px;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  margin-left: auto;
+   margin-right: auto;
+   float: center;
+    transition: transform 0.35s, box-shadow 0.35s;
+}
+
+.candidates-kin img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #fff;
+    margin-bottom: 5%;
+}
+
+
+.candidates-kin:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.32);
+}
+
+.visimisi {
+    text-align: left;
+}
+
+
+.candidate-kin {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15%;
+    width: 50%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    max-width: 800px;
+    gap: 10px;
+}
+
+.choose-kin {
+    width: 200px;
+    background-color: #7fcfe8;
+   padding: 13px;
+   border-radius: 50px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+   margin-right: auto;
+   float: center;
+   color: black;
+
+}
+
+
+.choose-kin:hover{
+    background-color: #588f9f;
+    color: white;
+}

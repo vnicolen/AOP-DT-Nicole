@@ -19,20 +19,20 @@ body {
 }
 
 
-.logo-title {
+.logo-title-n {
   display: inline-flex;  
   align-items: center;  
   gap: 10px;            
 }
 
 
-.logo-title img {
+.logo-title-n img {
   width: 55px;
   height: auto;
 }
 
 
-.logo-title h1 {
+.logo-title-n h1 {
   margin: 0;
   animation: colorChange 5s infinite alternate;
   text-shadow:
@@ -126,3 +126,4 @@ h2 {
 p {
    font-size : 75%;
 }
+

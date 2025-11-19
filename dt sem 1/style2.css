@@ -10,7 +10,6 @@
 
 body {
    background-image: linear-gradient(0deg, rgba(224, 240, 254) 0%, rgba(27, 144, 248) 50%);
-	background-size: cover;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
    cursor: url("tiger.cur.png"), auto;
@@ -95,6 +94,7 @@ button {
     color: white;
   	font-size: 14px;
 }
+
 
 
 

@@ -14,7 +14,7 @@ body {
 
 
 .header-n {
-  text-align: center
+  text-align: center;
   margin-top: 20px;
 }
 
@@ -127,5 +127,6 @@ h2 {
 p {
    font-size : 75%;
 }
+
 
 

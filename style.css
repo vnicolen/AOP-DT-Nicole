@@ -51,8 +51,9 @@ body {
 }
 
 
-.header-n h3 {
+.header-n h2 {
   margin-top: 5px;
+     margin-bottom: 1px;
 }
 
 
@@ -126,4 +127,5 @@ h2 {
 p {
    font-size : 75%;
 }
+
 
